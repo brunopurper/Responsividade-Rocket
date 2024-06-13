@@ -27,7 +27,7 @@ h1 {
 }
 
 main {
-    max-width: 33.0rem;
+    max-width: 33rem;
     margin: 0 auto;
 }
 
@@ -78,6 +78,28 @@ ul li span {
     color: #090039;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 700px) {
+    body {
+        padding: 8rem;
+    }
 
+    main {
+        max-width: 1020px;
+        display: flex;
+        gap: 10rem;
+    }
+
+    main > div {
+        max-width: 484px;
+    }
+
+    ul li {
+        gap: 5.3rem;
+        max-width: 450px;
+        align-items: center;
+    }
+
+    ul li + li {
+        margin-top: 3.2rem;
+    }
 }
